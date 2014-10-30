@@ -1,9 +1,10 @@
-company,open source/ commercial,docs,OS,restrictions,examples (How to use),link 
-ALLIED,commercial,yes,Ubuntu 12.04,,yes,http://www.alliedvisiontec.com/us/products/software/vimba-sdk.html
-Point Gray,commercial,yes,contact the company,,no ,http://ww2.ptgrey.com/
-The imaging source,open source ,yes,linux,,yes,http://www.theimagingsource.com/en_US/products/software/
-Matrix-vision,commercial,no,windows,,no ,http://www.matrix-vision.com/image-processing-software-mvimpact-downloads.html
-Basler web,commercial,yes,linux/ windows,,no ,http://www.baslerweb.com/Downloads_overview-42517.html
-iDS,commercial,no,linux/ windows,registration,no ,http://en.ids-imaging.com/download-ueye.html
-Baumer,commercial,no,linux/ windows,software request required,no ,http://www.baumer.com/de-en/products/identification-image-processing/software-and-starter-kits/baumer-gapi-sdk/
-eavise,open source ,yes,any ubuntu,,no ,http://eavise.wikispaces.com/Manta+GigE+camera
+|company           |open source/ commercial| docs|OS                 |restrictions             |examples (How to use)|link 
+|------------------|-----------------------|-----|-------------------|-------------------------|---------------------|-------------------------------
+|ALLIED            |commercial             |yes  |Ubuntu 12.04       |                         |yes                  |http://www.alliedvisiontec.com/us/products/software/vimba-sdk.html
+|Point Gray        |commercial             |yes  |contact the company|                         |no                   |http://ww2.ptgrey.com/
+|The imaging source|open source            |yes  |linux              |                         |yes                  |http://www.theimagingsource.com/en_US/products/software/
+|Matrix-vision     |commercial             |no   |windows            |                         |no                   |http://www.matrix-vision.com/image-processing-software-mvimpact-downloads.html
+|Basler web        |commercial             |yes  |linux/ windows     |                         |no                   |http://www.baslerweb.com/Downloads_overview-42517.html
+|iDS               |commercial             |no   |linux/ windows     |registration             |no                   |http://en.ids-imaging.com/download-ueye.html
+|Baumer            |commercial             |no   |linux/ windows     |software request required|no                   |http://www.baumer.com/de-en/products/identification-image-processing/software-and-starter-kits/baumer-gapi-sdk/
+|eavise            |open source            |yes  |any ubuntu         |                         |no                   |http://eavise.wikispaces.com/Manta+GigE+camera
