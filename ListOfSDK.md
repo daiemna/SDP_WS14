@@ -18,5 +18,5 @@
 |~~a&bSoftware~~       |commercial             |yes  |windows            |only windows             |yes                  |      |[link](http://www.ab-soft.com/activegige.php)
 |Pleora Technologi   |commercial             |yes  |all                |need to check            |yes                  |Deebul|[link](http://www.pleora.com/support-center/documentation-and-downloads/79)
 |CVB                 |commercial             |no   |ubuntu 12.04       |no support for 14        |no                   |Daiem |[link](ftp://ftp.stemmer-imaging.com/docmanagertemp/101676-CommonVisionBlox_CameraSuite_Ubuntu64Bit_2011SP3.zip )
-|AVT                 |commercial             |yes  |all                |                         |yes                  |      |[link](http://www.alliedvisiontec.com/us/products/software/vimba-sdk.html)
+|AVT                 |commercial             |yes  |all                |                         |yes                  |Deebul|[link](http://www.alliedvisiontec.com/us/products/software/vimba-sdk.html)
 
