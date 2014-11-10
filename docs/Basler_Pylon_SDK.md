@@ -7,13 +7,13 @@
 ----------
 Components
 ----------
-doc/*                            # HTML documentation
-Samples/*                        # sample files
-pylonSDK-4.0.x-<ARCH>.tar.gz     # pylon SDK and runtime files
-69-basler-cameras.rules          # udev rules file
-README
-INSTALL
-setup-usb.sh                     # installer for usb support
+- doc/*                            # HTML documentation
+- Samples/*                        # sample files
+- pylonSDK-4.0.x-<ARCH>.tar.gz     # pylon SDK and runtime files
+- 69-basler-cameras.rules          # udev rules file
+- README
+- INSTALL
+- setup-usb.sh                     # installer for usb support
 
 
 ------------
@@ -41,9 +41,9 @@ top-level Makefile that can be used to build the different sample programs.
 
 Before calling "make" you must setup your environment for pylon to find the 
 necessary dependencies:
-  cd Samples
-  source <path to pylon>/bin/pylon-setup-env.sh <path to pylon>
-  make
+-   cd Samples
+-   source <path to pylon>/bin/pylon-setup-env.sh <path to pylon>
+-  make
 
 ---------------
 Camera Emulator
