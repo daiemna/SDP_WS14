@@ -7,7 +7,7 @@
 |~~Matrix-vision~~     |commercial             |no   |windows            |                         |no                   |      |[link](http://www.matrix-vision.com/image-processing-software-mvimpact-downloads.html)
 |Basler web          |commercial             |yes  |linux/ windows     |                         |no                   |Nour  |[link](http://www.baslerweb.com/Downloads_overview-42517.html)
 |iDS                 |commercial             |no   |linux/ windows     |registration             |no                   |      |[link](http://en.ids-imaging.com/download-ueye.html)
-|Baumer              |commercial             |no   |linux/ windows     |software request required|no                   |Nour  |[link](http://www.baumer.com/de-en/products/identification-image-processing/software-and-starter-kits/baumer-gapi-sdk/)
+|Baumer              |commercial             |yes   |linux/ windows     |software request required|no                   |Nour  |[link](http://www.baumer.com/de-en/products/identification-image-processing/software-and-starter-kits/baumer-gapi-sdk/)
 |eavise              |open source            |yes  |any ubuntu         |                         |no                   |      |[link](http://eavise.wikispaces.com/Manta+GigE+camera)
 |~~JAI~~               |commercial             |yes  |windows            |only windows             |yes                  |      |[link](http://www.jai.com/en/support/jai_sdk_and_control_tool)
 |emergent vision     |commercial             |yes  | both 64 bit       |no download link         |yes(claims >5% cpu   |      |[link](http://www.emergentvisiontec.com/products/index.php?prod=Software&id=1)
