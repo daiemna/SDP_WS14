@@ -4,7 +4,7 @@
 const std::string kDeviceVendorName = "STEMMER IMAGING GmbH";
 const std::string kDeviceModelName = "FGI-HD";
 const std::string kDeviceID = "4-1326-0801";
-TEST(GetStringFeatureTest, PositiveTest) {
+TEST(GenICamTest, getStringFeatureTest) {
     Cvb::Camera camera("%CVB%/drivers/GenICam.vin");
 
     // get GenICam access
@@ -17,3 +17,15 @@ TEST(GetStringFeatureTest, PositiveTest) {
 
 }
 
+TEST(GenICamTest, settingTriggerModeTest ) {
+
+    Cvb::Camera camera("%CVB%/drivers/GenICam.vin");
+
+    // get GenICam access
+    Cvb::GenICam genICam(camera);
+
+    EXPECT_TRUE(genICam.setTriggerMode(true));
+    EXPECT_TRUE(genICam.setTriggerSource("Software"));
+    EXPECT_TRUE(genICam.setTriggerMode(false));
+    EXPECT_FALSE(genICam.setTriggerMode(false));
+}
