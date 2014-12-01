@@ -1,4 +1,4 @@
-#include "GenICam.h"
+#include "../../src/GenICam.h"
 #include "gtest/gtest.h"
 
 const std::string kDeviceVendorName = "STEMMER IMAGING GmbH";

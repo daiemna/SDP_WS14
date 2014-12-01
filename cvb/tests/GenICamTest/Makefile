@@ -17,7 +17,10 @@
 GTEST_DIR = ../gtest
 
 # Where to find user code.
-USER_DIR = .
+USER_DIR = ../../src
+
+#where to find the test code
+TEST_DIR = .
 
 # Flags passed to the preprocessor.
 # Set Google Test's header directory as a system directory, such that
@@ -80,9 +83,9 @@ GenICam.o : $(USER_DIR)/GenICam.cpp \
 			$(USER_DIR)/*.h 
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $(USER_DIR)/GenICam.cpp
 
-GenICam_unittest.o : $(USER_DIR)/GenICam_unittest.cpp \
+GenICam_unittest.o : $(TEST_DIR)/GenICam_unittest.cpp \
                      $(GTEST_HEADERS)
-	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $(USER_DIR)/GenICam_unittest.cpp
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $(TEST_DIR)/GenICam_unittest.cpp
 
 GenICam_unittest:  GenICam.o Camera.o GenICam_unittest.o gtest_main.a
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -lpthread $^ -o $@ $(LDFLAGS) $(LDLIBS)
