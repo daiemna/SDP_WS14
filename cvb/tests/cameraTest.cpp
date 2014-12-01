@@ -11,7 +11,7 @@ TEST_F(iCVCUtilitiesTest, LoadingImage) {
     TranslateFileName("%CVB%/drivers/GenICam.vin", driverPath, DRIVERPATHSIZE);
     IMG hCamera = NULL;
     
-    EXPECT_PRED2(LoadImageFile, driverPath, hCamera);    
+//    EXPECT_PRED2(LoadImageFile, driverPath, hCamera);    
     
-    EXPECT_TRUE(LoadImageFile, driverPath, hCamera);
+    EXPECT_TRUE(LoadImageFile (driverPath, hCamera));
 }
