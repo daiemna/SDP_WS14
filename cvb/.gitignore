@@ -1,0 +1,9 @@
+# build
+build/
+
+# local main for documentation
+src/main.cpp
+
+# doxygen folders
+docs/html
+docs/latex
